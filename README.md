@@ -4,4 +4,8 @@
 
 ## Link
 
-Go to [Demo](https://nuxt-users-list.firebaseapp.com/)
+Go to Demo
+
+- [Firebase Hosting](https://nuxt-users-list.firebaseapp.com/)
+
+- [Heroku](https://nuxt-users-list.herokuapp.com/)
