@@ -56,10 +56,11 @@ import axios from 'axios'
 import {countries} from 'country-data'
 import {mapGetters, mapActions} from 'vuex'
 import RowHero from '~/components/RowHero'
+import UserInfo from '~/components/UserInfo'
 
 export default {
   layout: 'landing',
-  components: {RowHero},
+  components: {RowHero, UserInfo},
   data () {
     return {
       user: false,

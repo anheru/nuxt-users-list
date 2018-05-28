@@ -4,4 +4,4 @@
 
 ## Link
 
-Go to [Demo](https://nuxt-users-list-rdomjdhinw.now.sh/)
+Go to [Demo](https://nuxt-users-list-yqitcmhsoi.now.sh/)

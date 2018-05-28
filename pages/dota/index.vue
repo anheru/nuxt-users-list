@@ -57,6 +57,12 @@ export default {
     allUsers () {
       return this.users.slice(0, 10)
     }
+  },
+
+  head () {
+    return {
+      title: 'Players List'
+    }
   }
 }
 </script>
