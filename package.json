@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-users-list",
+  "version": "1.0.0",
+  "description": "My splendiferous Nuxt.js project",
+  "author": "Angel",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "animate.css": "^3.6.1",
+    "axios": "^0.18.0",
+    "country-data": "^0.0.31",
+    "koa": "^2.3.0",
+    "moment": "^2.22.1",
+    "nuxt": "^1.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.6",
+    "cross-env": "^5.0.1",
+    "node-sass": "^4.5.3",
+    "nodemon": "^1.11.0",
+    "prettier": "1.12.0",
+    "sass-loader": "^6.0.6",
+    "tailwindcss": "^0.1.3"
+  }
+}

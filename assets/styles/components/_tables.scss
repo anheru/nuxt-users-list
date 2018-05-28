@@ -1,0 +1,13 @@
+.table {
+  &-head {
+    @apply .py-4 .px-3 .bg-grey-lighter .font-sans .uppercase .text-sm .text-blue .border-b .border-grey-light;
+  }
+
+  &-row {
+    // @apply ;
+  }
+
+  &-data {
+    @apply .py-3 .px-4 .border-b .border-grey-light;
+  }
+}

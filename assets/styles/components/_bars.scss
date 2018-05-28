@@ -1,0 +1,16 @@
+.bar {
+  height: 5px;
+  width: 100%;
+  @apply .bg-grey-light;
+}
+
+.bar-win {
+  @apply .bg-red-light;
+  .bar-progress {
+    @apply .bg-green-dark;
+  }
+}
+
+.bar-progress {
+  height: 5px;
+}

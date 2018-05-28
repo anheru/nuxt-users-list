@@ -1,0 +1,38 @@
+@tailwind preflight;
+@tailwind components;
+
+@import "components/buttons";
+@import "components/tables";
+@import "components/bars";
+@import "components/github-user";
+// @import "components/forms";
+
+@tailwind utilities;
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity .5s;
+}
+
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+
+.body {
+  overflow-x: hidden;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity .5s;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.aos {
+  opacity: 0;
+}
